@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactApplication", "ContactApplication.csproj", "{D80EEBDE-0DAA-49E6-9F18-0448451ED647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC2E3ED0-6DDF-4CE5-B725-4E63E1DC178B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EB4C85F-677A-4768-811D-3A3C664BB2CA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80EEBDE-0DAA-49E6-9F18-0448451ED647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80EEBDE-0DAA-49E6-9F18-0448451ED647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80EEBDE-0DAA-49E6-9F18-0448451ED647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80EEBDE-0DAA-49E6-9F18-0448451ED647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D80EEBDE-0DAA-49E6-9F18-0448451ED647} = {EC2E3ED0-6DDF-4CE5-B725-4E63E1DC178B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D59F002C-A4DF-4CF4-A36B-464C443C229F}
+	EndGlobalSection
+EndGlobal

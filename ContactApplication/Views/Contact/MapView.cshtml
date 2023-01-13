@@ -1,0 +1,32 @@
+﻿@model ContactApplication.Models.ContactModel
+
+@{
+    ViewData["Title"] = "MapView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>MapView</h1>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+    function myMap() {
+        var myCenter = new google.maps.LatLng(@Model.Latitude,@Model.Longitude);
+        var mapProp = { center: myCenter, zoom: 12, scrollwheel: false, draggable: true, mapTypeId: google.maps.MapTypeId.ROADMAP };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        var marker = new google.maps.Marker({ position: myCenter });
+        marker.setMap(map);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8xOGUT_MLP_Q1f88A-5Jaw-FJa6P6TYU&callback=myMap"></script>
+</fieldset>
+
+<div>
+    @Html.ActionLink("Home", "Contact", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
