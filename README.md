@@ -2,9 +2,9 @@
 
 This folder contains 3 parts:
 
-Contact Application - Dot net core MVC Solution
-ContactWebAPI - Dot net core Web API
-DB Scripts for creating the db tables and sample data.
+1. Contact Application - Dot net core MVC Solution
+2. ContactWebAPI - Dot net core Web API
+3. DB Scripts for creating the db tables and sample data.
 Please ensure to run the Web api first and then ensure that the api is running in the below mentioned endpoint :
 
 https://localhost:44305/api/getcontacts _ this will read the sample data from the API.
