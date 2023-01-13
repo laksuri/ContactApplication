@@ -12,8 +12,8 @@ The MVC application will call the API for the DB persistance.
 
 The MVC application has the below funtionalities :
 
-Home page - Displays the list of contacts. Create the sample records in the DB.
-Create Contact - Creates a new contact
-Edit Contact - Edits an existing contact
-Map View - Finds the latitude and longitude of the given city name and displays in the map. -> For this purpose I have used google maps api whose API key is currently hard coded in the application.
-Error page -> will navigate to error page when something goes wrong.
+1. Home page - Displays the list of contacts. Create the sample records in the DB.
+2. Create Contact - Creates a new contact
+3. Edit Contact - Edits an existing contact
+4. Map View - Finds the latitude and longitude of the given city name and displays in the map. -> For this purpose I have used google maps api whose API key is currently hard coded in the application.
+5. Error page -> will navigate to error page when something goes wrong.
